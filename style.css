@@ -1,0 +1,69 @@
+@font-face
+{
+    font-family: "DefaultFont";
+    src: url("fonts/Minecraftia.ttf") format("truetype");
+}
+body
+{
+    margin: 0px;
+    font-family: DefaultFont;
+    background-image: url("images/ui/bg.gif");
+    color: white;
+}
+
+.button 
+{
+    position: relative;
+    background-image: url("images/ui/button.png");
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    top: -40%;
+}
+.button:hover
+{
+    background-image: url("images/ui/button_over.png");
+    color: yellow;
+}
+
+.navbar
+{
+    background-image: url("images/ui/top-bg.gif");
+    padding: 0px;
+    margin: 0px;
+    height: 48px;
+}
+
+.logo
+{
+    width: 48px;
+}
+
+.GreenWool
+{
+    background-image: url("images/ui/wool/color4.png");
+}
+
+.BlueWool
+{
+    background-image: url("images/ui/wool/color7.png");
+}
+
+.PurpelWool
+{
+    background-image: url("images/ui/wool/color9.png");
+}
+
+.PinkWool
+{
+    background-image: url("images/ui/wool/color11.png");
+}
+
+.RedWool
+{
+    background-image: url("images/ui/wool/color0.png");
+}
