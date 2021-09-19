@@ -43,6 +43,33 @@ body
     width: 48px;
 }
 
+.thumbnail
+{
+    background-image: url("images/ui/wood.png");
+    width: 128px;
+    height: 150px;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.Image
+{
+    width: 100%;
+}
+
+.History
+{
+    padding: 3px;
+    margin: 3px;
+}
+
+.GrayWool
+{
+    margin: 10px;
+    background-image: url("images/ui/wool/color13.png");
+}
+
 .GreenWool
 {
     background-image: url("images/ui/wool/color4.png");
