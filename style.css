@@ -51,6 +51,8 @@ body
     padding: 15px;
     display: inline-block;
     margin: 20px;
+    text-align: center;
+    font-size: 15px;
 }
 
 .Image
